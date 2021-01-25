@@ -83,7 +83,7 @@ function updateDOM(providedData = data) {
   });
 }
 
-// Format number as money - https://stackoverflow.com/questions/149055/how-to-format-numbers-as-currency-string
+// Format number as money
 function formatMoney(number) {
   return '$' + number.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }
